@@ -1,0 +1,91 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(68, 67, 67);
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #f78809;
+}
+body{
+    margin: 0px;
+    background-color:#f7f2f2;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+}
+.grid img{
+border: 2px solid #000000;
+border-radius: 50px;
+}
+    
+.origami {
+border-radius: 20px; 
+background-color: white;
+padding:30px;
+margin:25px;
+width:310px;
+font-family: fantasy;
+}
+.container {
+    position: relative;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 100;
+    font-stretch: narrower;
+    color: white;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 80px;
+    display: flex;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    color: green;
+    transform: translate(-50%, -60%);
+  }
+  .top-up{
+    position: absolute;
+    color: white;
+    top: 20%;
+    left: 45%;
+    transform: translate(-30%, -30%);
+  }
+  a:link{
+    color:rgb(218, 91, 91);
+}
+a:visited{
+    color: rgb(218, 91, 91);
+}
